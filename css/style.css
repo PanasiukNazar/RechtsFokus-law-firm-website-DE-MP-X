@@ -11668,6 +11668,12 @@ textarea.form-control {
     font-size: 24px;
 }
 
+@media (max-width: 772px) {
+    .about-author {
+        flex-direction: column;
+    }
+}
+
 .ftco-section {
     padding: 6em 0;
     position: relative;
